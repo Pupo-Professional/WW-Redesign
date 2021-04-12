@@ -14,7 +14,7 @@
 
   <h1>A collective culmination of culinary minds.&#8482;</h1>
 </header>
-<nav>
+<nav class="sticky-top">
   <ul class="nav justify-content-center navbar-dark bg-dark">
       <li class="nav-item">
         <a class="nav-link active" href="#">Home</a>
@@ -42,15 +42,32 @@
   <main class="container">
   <section class="hotdog-container">
   <section class="row">
-    <article class="col-md-12 col-lg-4">
-      <img class="img-fluid" src="https://images.unsplash.com/photo-1542344807-21226ec94b39?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1400&q=80" alt="">
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <div class="col-md-3">
+    <article>
+      <img class="img-fluid hotdog-header" src="https://images.unsplash.com/photo-1542344807-21226ec94b39?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1400&q=80" alt="">
+      <p class="hotdog-paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </article>
-
-    <aside class="col-md-12 col-lg-8">
-      <h3 class="my-3">Sidebar Heading</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-      <h3 class="my-3">Details List</h3>
+  </div>
+  <div class="col-md-4">
+    <aside>
+      <h3 class="my-3">Cuisine</h3>
+      <div class="card centered" style="width: 18rem;">
+        <div class="card-header card-tint">
+          <p class="featured-header">Featured Cuisine</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Papaya Dog</li>
+          <li class="list-group-item">Dirty-water Dog</li>
+          <li class="list-group-item">Italian Dog</li>
+          <li class="list-group-item">Philly Combo</li>
+          <li class="list-group-item">Salami Dog</li>
+          <li class="list-group-item">Michigan Red Hot</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <aside class="right-aside">
+      <h3 class="my-3">One Tree Hard Cider</h3>
       <ul>
         <li>Lorem ipsum dolor sit amet</li>
         <li>consectetur adipiscing elit</li>
@@ -58,7 +75,20 @@
         <li>exercitation ullamco laboris</li>
         <li>Excepteur sint occaecat cupidatat non proident</li>
       </ul>
+      <div class="card align-center" style="width: 18rem;">
+        <img class="card-img-top" src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Featured Cider</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button type="button" class="btn btn-secondary" data-container="body"
+            data-toggle="popover" data-placement="left"
+            data-content="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." >
+            Review
+          </button>
+  </div>
+</div>
     </aside>
+  </div>
   </section>
 </section>
 <section class="hotdog-photo-container">
