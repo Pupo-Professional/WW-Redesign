@@ -7302,7 +7302,12 @@ ul.nav.nav-tabs {
   color: black; }
 
 .align-center {
+<<<<<<< HEAD
   margin: 0 auto 10px; }
+=======
+  margin: 0 auto;
+  margin-bottom: 10px; }
+>>>>>>> 31d9ba1c7d7dd5fc46e64ce034c158fc2aea4cb8
 
 a.nav-link.dropdown-toggle {
   color: yellow; }
